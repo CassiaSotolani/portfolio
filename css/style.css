@@ -41,7 +41,7 @@ header a:hover,
 
 .caixa,
 main, 
-.redes-sociais {
+section {
     margin: 0 auto;
     max-width: 940px;    
     padding-top: 4.5rem;
@@ -60,48 +60,34 @@ main h2 {
     margin-right: 2rem;
 }
 
-.sobre-mim-descricao a {
-    background-color: violet;
-    border-radius: 1.5rem;
-    color:white;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
+section h2 {
+    text-align: center;
 }
 
-.sobre-mim-descricao a:hover {
-    background-color: blueviolet;
-}
-
-.redes-sociais_itens {
+.redes-sociais {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2rem;;
 }
 
-.redes-sociais_itens img {
+.redes-sociais img {
     min-width: 2rem;
 }
 
-.rede-sociais_itens_facebook, 
-.rede-sociais_itens_linkedin, 
-.rede-sociais_itens_instagram, 
-.rede-sociais_itens_github {
-    background-color: violet;
-    padding: 1.5rem;    
+.rede-sociais-itens {
+    background-color: #fd408252;
+    padding: 1.5rem;
+    border-radius: 0.6rem;
 }
 
-.rede-sociais_itens_facebook:hover, 
-.rede-sociais_itens_linkedin:hover, 
-.rede-sociais_itens_instagram:hover, 
-.rede-sociais_itens_github:hover {
-    background-color: blueviolet;   
+.rede-sociais-itens:hover {
+    background-color: #009de171;
 }
 
 footer {    
-    background-color: #0b0457;
+    background-color: #010d37;
     color: white;
-    margin: 0;
+    margin-top: 3rem;
     padding: 5px;
     text-align: center;
 }
