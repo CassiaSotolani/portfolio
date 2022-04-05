@@ -11,15 +11,12 @@ header {
     background-image: url("../img/front-01.jpg");
     background-size: cover;
     height: 600px;
-    padding-top: 30vh;
 }
 
 .caixa {
     color: white;
     font-size: 14px;
-    margin: 0 auto;
     text-align: center;
-    width: 940px;
 }
 
 header h2 {
@@ -27,7 +24,8 @@ header h2 {
 }
 
 
-header a {
+header a,
+.botao-curriculo {
     background-color: #fd4082;
     border-radius: 1.5rem;
     color: white;
@@ -36,24 +34,33 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
+header a:hover,
+.botao-curriculo:hover {
     background-color: #009de1;
 }
 
-.sobre-mim h2 {
+.caixa,
+main, 
+.redes-sociais {
+    margin: 0 auto;
+    max-width: 940px;    
+    padding-top: 4.5rem;
+}
+
+main h2 {
     text-align: center;
 }
 
-.sobre-mim_habilidades {
+.sobre-mim {
     display: flex;
 }
 
-.sobre-mim_habilidades_titulo {
+.sobre-mim-descricao {
     max-width: 30rem;
     margin-right: 2rem;
 }
 
-.sobre-mim_habilidades_titulo a {
+.sobre-mim-descricao a {
     background-color: violet;
     border-radius: 1.5rem;
     color:white;
@@ -62,7 +69,7 @@ header a:hover {
     text-decoration: none;
 }
 
-.sobre-mim_habilidades_titulo a:hover {
+.sobre-mim-descricao a:hover {
     background-color: blueviolet;
 }
 
@@ -89,13 +96,6 @@ header a:hover {
 .rede-sociais_itens_instagram:hover, 
 .rede-sociais_itens_github:hover {
     background-color: blueviolet;   
-}
-
-.sobre-mim, 
-.redes-sociais {
-    margin: 0 auto;
-    max-width: 1028px;    
-    padding-top: 4.5rem;
 }
 
 footer {    
