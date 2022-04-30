@@ -1,41 +1,63 @@
+/* Estilo para todo o site */
+:root {
+    --rosa-principal: #fd4082;
+    --azul-principal: #009de1;
+    --rosa-secundaria: #fd408252;
+    --azul-secundario: #009de171;
+    --branco-principal: #ffffff;
+    --azul-footer: #010d37;
+}
+
 * {
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
     margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background-image: url("../img/front-01.jpg");
-    background-size: cover;
-    height: 600px;
-}
-
-.caixa {
-    color: white;
-    font-size: 14px;
+/* Estilo do header */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-image: url("../img/img-fundo.jpg");
+    background-position: center;
 }
 
-header h2 {
-    margin-bottom: 3rem;
+.container__conteudo {
+    margin: 1em;
 }
 
-header a,
-.botao-curriculo {
-    background-color: #fd4082;
-    border-radius: 1.5rem;
-    color: white;
-    font-size: 0.8rem;
-    padding: 0.6rem 1.5rem;
+.container__titulo {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.container__paragrafo {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 3em;
+}
+
+.container__link {
+    font-size: 0.8em;
+    font-weight: 200;
+    background-color: var(--rosa-principal);
+    border-radius: 1.5em;
+    padding: 0.8em 2em;
     text-decoration: none;
 }
 
-header a:hover,
-.botao-curriculo:hover {
-    background-color: #009de1;
+.container__link:hover {
+    background-color: var(--azul-principal);
+}
+
+.container__titulo,
+.container__paragrafo,
+.container__link {
+    color: var(--branco-principal);
 }
 
 .caixa,
