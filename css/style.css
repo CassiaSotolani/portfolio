@@ -83,11 +83,17 @@
 }
 
 .container-main__paragrafo {
-    text-indent: 1.5em;
+    text-indent: 1em;
+    text-align: justify;
 }
 
 .container-main__lista {
     margin-bottom: 2em;
+}
+
+.container-main__item:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 @media (max-width: 810px) {
