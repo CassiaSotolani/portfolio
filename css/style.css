@@ -82,6 +82,10 @@
     margin-bottom: 0.5em;
 }
 
+.container-main__paragrafo {
+    text-indent: 1.5em;
+}
+
 .container-main__lista {
     margin-bottom: 2em;
 }
