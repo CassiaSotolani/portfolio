@@ -165,4 +165,8 @@
     .container-redes-sociais {
         margin-top: 8em;
     }
+
+    .container-footer__conteudo {
+        margin: 0 0.5em;
+    }
 }
